@@ -2,7 +2,7 @@
 # zsh 
 ###
 # TODO: add git prompts
-PROMPT="%n@%m >%B%~%b ?%B%?%b :"
+PROMPT="%n@%m %B%~%b [%B%?%b] >"
 
 ###
 # System PATH
