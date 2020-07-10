@@ -10,7 +10,7 @@ if not os.environ.get('SHELL', '').endswith('zsh'):
     os.exit(1)
 
 if __name__ == "__main__":
-    for fn in ["zshrc", "vimrc", "ideavimrc", "yabairc", "skhdrc"]:
+    for fn in ["zshrc", "vimrc", "ideavimrc"]:
         src = os.path.join(os.getcwd(), fn)
         dst = os.path.join(home, "." + fn) 
         if os.path.exists(dst) and not os.path.islink(dst):
