@@ -17,7 +17,6 @@ export PATH=$PATH:$HOME/.local/bin
 # Personal alias'es
 ###
 alias ws=workspace
-alias code=vi
 alias ..="cd .."
 alias l="ls -alh"
 
